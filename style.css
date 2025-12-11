@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background: white;
+}
+.bar1 {
+    display: grid;
+    grid-template-columns: 250px auto;
+}
+
+.left {
+    background: #1c1c1c;
+    color: rgb(210, 210, 210);
+    padding: 20px;
+    height: 100%;
+}
+
+.mee {
+    width: calc(100% + 40px);
+    margin: -20px -20px 20px -20px; 
+    display: block;
+}
+
+
+#issam{
+    color: rgb(207, 197, 197);
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin: 8px 0;
+    
+}
+
+.right {
+    padding: 40px;
+}
+
+.section {
+    margin-top: 40px;
+    color: rgb(58, 57, 57);
+}
+
